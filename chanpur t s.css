@@ -1,0 +1,183 @@
+/*header stard*/
+*{margin:0;padding:0;font-family: sans-serif;}
+
+header{
+	background:#f5f6f6;
+	border-radius:2px;
+	padding:7px;
+	position: relative;
+	text-align: center;
+}
+
+.logo{
+	position: absolute;
+	width:42px;
+	top: 16%;
+	left: 0;
+	display: inline-block;
+}
+.logo img{
+	width:52%;
+	border-radius:100%;
+}
+
+header a{
+	text-decoration:none;
+	color:blue;
+	padding: 0 1%;
+}
+a:hover{
+	color:gray;
+}
+.nave-container{
+	display:inline;
+	position:relative;
+
+
+}
+.nave-contant{
+	background-color:#f5f6f6;
+	position:absolute;
+	display:none;
+	padding:5px;
+	text-align:left;
+	right:0;
+}
+
+
+.nave-container:hover .nave-contant{
+	display:block;
+	background:#f5f6f6;
+	color:white;
+
+}
+
+
+/*div end */
+#section1{
+	background: #01ffff;
+	margin-top:20px;
+	clear:both;
+}
+
+.fastimage{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
+}
+.fastimage img{
+	width:100%;
+	border-radius: 10px;
+}
+
+#section2{
+	background:#f5f6f6;
+	margin-top:20px;
+}
+
+.tomeimage{
+	clear:both;
+	
+}
+
+.tomeimage img {
+	width:100%;
+
+}
+
+
+#section3{
+	background:#f5f6f6;
+	margin-top:20px;
+	overflow: auto;
+}
+
+.section4contant P {
+    margin: 20px 0;
+}
+.mitineimage{
+	width: 50%;
+	/* margin:0px 5px 0px 0px; */
+	float:left;
+	box-sizing: border-box;
+}
+.mitineimage img{
+	width:100%;
+
+}
+
+#section4{
+	background:#f5f6f6;
+	margin-top:20px;
+	display: flex;
+	clear:both;
+}
+
+.section4contant{
+	text-align:center;
+
+}
+.section4contant h2{
+	padding-top:5px;
+	margin:0;
+}
+.section4content p{
+	text-align:justify;
+	margin:0px;
+
+}
+.studentgive{
+	width:167px;
+	float:left;
+	clear:both;
+	margin-right:5px;
+
+}
+.student{
+	width: 48%;
+	float:left;
+	margin-left:5px;
+}
+.studentgive img{
+	width:100%;
+}
+.student img {
+	width:100%;
+}
+
+
+/*section5 */
+
+#section5{
+	background:#f5f6f6;
+	margin-top:20px;
+	height:400px;
+	clear:both;
+}
+
+
+/*section5Â·*/
+
+/*section6 */
+#section6{
+	background-color:#f5f6f6;
+	margin-top:20px;
+	height:340px;
+	clear:both;
+	
+}
+
+
+/*section6*/
+
+/*section7 */
+#section7{
+	background-color:#f5f6f6;
+	margin-top:20px;
+	height:250px;
+	clear:both;
+	
+}
+
+
+/*section7 end */
